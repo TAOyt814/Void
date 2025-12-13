@@ -1,4 +1,4 @@
-# 🦾 DRL-Based 3D Collision Avoidance for Dynamic Environments
+# DRL-Based 3D Collision Avoidance for Dynamic Environments
 
 This repository provides supplementary materials for our paper on **3D dynamic obstacle avoidance** using deep reinforcement learning (DRL) integrated with the velocity obstacle (VO) method.
 
