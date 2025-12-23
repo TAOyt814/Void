@@ -15,16 +15,16 @@ VOID integrates 3D Velocity Obstacle (VO) constraints with deep reinforcement le
 ### Framework
 The following figure illustrates the overall framework used in the paper:
 
-![Framework overview](framework.pdf)
+![Framework overview](framework.png)
 
 ### Real-world experiments
 The following figure shows examples from our real-world experiments:
 
-![Real-world experiments](realworld.pdf)
+![Real-world experiments](realworld.png)
 
 ## Contents (current)
-- `framework.pdf`: framework overview figure
-- `realworld.pdf`: real-world experiment figure
+- `framework.png`: framework overview figure
+- `realworld.png`: real-world experiment figure
 
 More materials will be added progressively. The complete codebase will be released after publication.
 
