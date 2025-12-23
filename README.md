@@ -1,50 +1,35 @@
-# DRL-Based 3D Collision Avoidance for Dynamic Environments
+# VOID: VO-Integrated Deep Reinforcement Learning for 3D Dynamic Obstacle Avoidance
 
-This repository provides supplementary materials for our paper on **3D dynamic obstacle avoidance** using deep reinforcement learning (DRL) integrated with the velocity obstacle (VO) method.
+## Release plan
+We plan to release the full implementation once the paper is published.
 
-## 📁 Included Files
+## Overview
+This repository hosts materials related to our paper:
 
-- [`framework.pdf`](./framework.pdf):  
-  The overall framework of our proposed method, including perception, planning, and control modules.
+**VOID: VO-Integrated Deep Reinforcement Learning for 3D Dynamic Obstacle Avoidance**
 
-- [`real_world_experiments.pdf`](./real_world_experiments.pdf):  
-  Results and setup details of real-world experiments, demonstrating the practical deployment of our system.
+VOID integrates 3D Velocity Obstacle (VO) constraints with deep reinforcement learning for safe navigation in dynamic environments.
 
-- [`video.mp4`](./video.mp4):  
-  A demonstration video showcasing the agent's behavior in both simulation and real-world scenarios.
+## Figures
 
----
+### Framework
+The following figure illustrates the overall framework used in the paper:
 
-## ⚙️ Unity ML-Agents Configuration
+![Framework overview](framework.pdf)
 
-Our simulation environment is built on the [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents). Below are the key configuration details:
+### Real-world experiments
+The following figure shows examples from our real-world experiments:
 
-- **Unity Version**: `2021.3.x` *(please match your installed Unity version)*
-- **ML-Agents Version**: `v0.29.0` or compatible
-- **Environment Name**: `3D-VO-Navigation`
-- **Features**:
-  - Simulated UGV navigating toward a goal
-  - 3D dynamic obstacles (e.g., bouncing balls)
-  - Static obstacles represented using 2D grid maps
-  - Collision detection and reward feedback
+![Real-world experiments](realworld.pdf)
 
-> 📌 Please follow the [official ML-Agents installation guide](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md) to set up your Python environment and Unity project.
+## Contents (current)
+- `framework.png`: framework overview figure
+- `realworld.png`: real-world experiment figure
 
----
+More materials will be added progressively. The complete codebase will be released after publication.
 
-## 🚀 Code Release Plan
+## Citation
+If you find this work useful, please cite our paper. The citation information will be updated after publication.
 
-We plan to release the core implementation (including training scripts, network structure, and evaluation pipeline) **upon acceptance of the paper**. This will ensure the released code is clean, well-documented, and easy to reproduce.
-
-Stay tuned!
-
----
-
-## 📬 Contact
-
-For questions, suggestions, or collaborations, feel free to open an issue in this repository or contact the authors directly.
-
----
-
-Thank you for your interest in our work!
-
+## Contact
+If you have questions, feel free to open an issue in this repository.
