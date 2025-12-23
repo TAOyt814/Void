@@ -23,8 +23,8 @@ The following figure shows examples from our real-world experiments:
 ![Real-world experiments](realworld.pdf)
 
 ## Contents (current)
-- `framework.png`: framework overview figure
-- `realworld.png`: real-world experiment figure
+- `framework.pdf`: framework overview figure
+- `realworld.pdf`: real-world experiment figure
 
 More materials will be added progressively. The complete codebase will be released after publication.
 
